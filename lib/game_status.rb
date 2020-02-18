@@ -31,7 +31,8 @@ end
 end
 
 def full?(board, index)
-
+  [board].all? do |number|
+  number.odd?
 end
 
   
