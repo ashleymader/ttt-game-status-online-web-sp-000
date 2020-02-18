@@ -37,6 +37,6 @@ end
 def draw?(board)
     #if board full and no winner return draw
   if !won?(board) && full?(board)
-  elsif 
-  
+  elsif won?(board) && full?(board)
+
 end
