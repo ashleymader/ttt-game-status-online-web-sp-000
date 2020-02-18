@@ -36,6 +36,6 @@ end
 
 def draw?(board)
     #if board full and no winner return draw
-  if full?(board) && !WIN_COMBINATIONS 
-  elsif full?(board) && WIN_COMBINATIONS 
+  full?(board) && !WIN_COMBINATIONS 
+  full?(board) && WIN_COMBINATIONS 
 end
