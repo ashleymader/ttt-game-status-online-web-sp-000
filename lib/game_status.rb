@@ -30,8 +30,8 @@ end
   winning_combo
 end
 
-def full?(board, index)
-  [board].all? do |full|
+def full?(board)
+  (board).all? 
     
 end
 
