@@ -31,7 +31,7 @@ end
 end
 
 def full?(board)
-  (board).all? {|full| full.}
+  (board).all? {|index| }
     
 end
 
