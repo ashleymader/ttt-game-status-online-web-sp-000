@@ -34,5 +34,7 @@ def full?(board)
   (board).all? {|index| index == "X" || index == "O"}
 end
 
-  
-  
+def draw?(board)
+    #if board full and no winner return draw
+  full?(board) && !WIN_COMBINATIONS
+end
